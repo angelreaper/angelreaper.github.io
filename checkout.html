@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Carnes de Colombia</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
+		<!-- bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
+
+		<!-- global styles -->
+		<link href="themes/css/flexslider.css" rel="stylesheet"/>
+		<link href="themes/css/main.css" rel="stylesheet"/>
+
+		<!-- scripts -->
+		<script src="themes/js/jquery-1.7.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="themes/js/superfish.js"></script>
+		<script src="themes/js/jquery.scrolltotop.js"></script>
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+    <body>
+		<div id="top-bar" class="container">
+			<div class="row">
+				<div class="span4">
+					<form method="POST" class="search_form">
+						<input type="text" class="input-block-level search-query" Placeholder="Ejemplo: Milanesa">
+					</form>
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="cart.html">Tu carro</a></li>
+						<!--	<li><a href="checkout.html">Checkout</a></li>-->
+							<li><a href="register.html">Login</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper" class="container">
+			<section class="navbar main-menu">
+				<div class="navbar-inner main-menu">
+					<a href="index.html" class="logo pull-left"><img src="themes/images/logo.png" class="site_logo" alt=""></a>
+					<nav id="menu" class="pull-right">
+						<ul>
+							<li><a href="./products.html">Menu 1</a>
+								<ul>
+									<li><a href="./products.html">Opcion 1</a></li>
+									<li><a href="./products.html">Opcion 2</a></li>
+									<li><a href="./products.html">Opcion 3</a></li>
+								</ul>
+							</li>
+							<li><a href="./products.html">Link 1</a></li>
+							<li><a href="./products.html">Menu 2</a>
+								<ul>
+									<li><a href="./products.html">Opcion 1</a></li>
+									<li><a href="./products.html">Opcion 2</a></li>
+									<li><a href="./products.html">Opcion 3</a></li>
+								</ul>
+							</li>
+							<li><a href="./products.html">Link 2</a></li>
+							<li><a href="./products.html">Link 3</a></li>
+							<li><a href="./products.html">Link 4</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section class="header_text sub">
+			<img class="pageBanner" src="themes/images/pageBanner.png" alt="New products" >
+				<h4><span>Caja </span></h4>
+			</section>
+			<section class="main-content">
+				<div class="row">
+					<div class="span12">
+						<div class="accordion" id="accordion2">
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Opciones de Pago</a>
+								</div>
+								<div id="collapseOne" class="accordion-body in collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="span6">
+												<h4>Selecciona Tu Metodo de Pago</h4>
+												<p>Puedes Seleccionar tu Meotodo de Pago</p>
+												<form action="#" method="post">
+													<fieldset>
+														<label class="radio" for="register">
+															<input type="radio" name="account" value="register" id="register" checked="checked">Tarjeta Debito
+														</label>
+														<label class="radio" for="guest">
+															<input type="radio" name="account" value="guest" id="guest">Tarjeta Credito
+														</label>
+														<br>
+														<button class="btn btn-inverse" data-toggle="collapse" data-parent="#collapse2">Continuar</button>
+													</fieldset>
+												</form>
+											 </div>
+											 <div class="span6">
+												<h4>Ingresar</h4>
+												<p>Ingresa Tu Usuario y Contraseña</p>
+												<form action="#" method="post">
+													<fieldset>
+														<div class="control-group">
+															<label class="control-label">Usuario</label>
+															<div class="controls">
+																<input type="text" placeholder="Ingrese su Usuario" id="username" class="input-xlarge">
+															</div>
+														</div>
+														<div class="control-group">
+															<label class="control-label">Clave</label>
+															<div class="controls">
+															<input type="password" placeholder="Ingrese su Clave" id="password" class="input-xlarge">
+															</div>
+														</div>
+														<button class="btn btn-inverse">Continuar</button>
+													</fieldset>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<!--<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Información &amp; Billing Details</a>-->
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Información de Envio</a>
+								</div>
+								<div id="collapseTwo" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="span6">
+												<h4>Datos Personales</h4>
+												<div class="control-group">
+													<label class="control-label">Primer Nombre</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Apellido</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Email</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Telefono</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Fax</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+											</div>
+											<div class="span6">
+												<h4>Dirección</h4>
+												<!--<div class="control-group">
+													<label class="control-label">Nombre Compañia</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Compañia:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>-->
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Dirección 1:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label">Dirección 2:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Ciudad:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Codigo Postal:</label>
+													<div class="controls">
+														<input type="text" placeholder="" class="input-xlarge">
+													</div>
+												</div>
+												<div class="control-group">
+												<label class="control-label"><span class="required">*</span> Departamento:</label>
+													<div class="controls">
+														<select class="input-xlarge">
+															<option value=""> --- Seleccionar --- </option>
+															<option value="1">Cundinamarca</option>
+															<option value="2">Guajira</option>
+															<option value="3">Antioquia</option>
+															<option value="4">Santander</option>
+															<option value="5">Tolima</option>
+															<option value="6">Valle del Cuauca</option>
+														</select>
+													</div>
+												</div>
+												<div class="control-group">
+													<label class="control-label"><span class="required">*</span> Municipio:</label>
+													<div class="controls">
+														<select name="zone_id" class="input-xlarge">
+															<option value=""> --- Seleccionar --- </option>
+															<option value="3513">Bogota</option>
+															<option value="3514">Rioacha</option>
+															<option value="3515">Medellin</option>
+															<option value="3516">Bucaramanga</option>
+															<option value="3517">Cali</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">Confirmar Orden</a>
+								</div>
+								<div id="collapseThree" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="row-fluid">
+											<div class="control-group">
+												<label for="textarea" class="control-label">Comentarios</label>
+												<div class="controls">
+													<textarea rows="3" id="textarea" class="span12"></textarea>
+												</div>
+											</div>
+											<button class="btn btn-inverse pull-right">Confirmar Orden</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="footer-bar">
+				<div class="row">
+					<div class="span3">
+						<h4>Navegacion</h4>
+						<ul class="nav">
+							<li><a href="./index.html">Home</a></li>
+							<li><a href="./about.html">Acerca de Nosotros</a></li>
+							<li><a href="./contact.html">Conctactenos</a></li>
+							<li><a href="./cart.html">Tu Carro</a></li>
+							<li><a href="./register.html">Login</a></li>
+						</ul>
+					</div>
+					<div class="span4">
+						<h4>Mi Cuenta</h4>
+						<ul class="nav">
+							<li><a href="#">Mi Cuenta</a></li>
+							<!--<li><a href="#">Order History</a></li>-->
+							<!--<li><a href="#">Wish List</a></li>-->
+							<!--<li><a href="#">Newsletter</a></li>-->
+						</ul>
+					</div>
+					<!--<div class="span5">
+						<p class="logo"><img src="themes/images/logo.png" class="site_logo" alt=""></p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. the  Lorem Ipsum has been the industry's standard dummy text ever since the you.</p>
+						<br/>
+						<span class="social_icons">
+							<a class="facebook" href="#">Facebook</a>
+							<a class="twitter" href="#">Twitter</a>
+							<a class="skype" href="#">Skype</a>
+							<a class="vimeo" href="#">Vimeo</a>
+						</span>
+					</div>					-->
+				</div>
+			</section>
+			<section id="copyright">
+				<span>Todos los derechos reservados.</span>
+			</section>
+		</div>
+		<script src="themes/js/common.js"></script>
+    </body>
+</html>
